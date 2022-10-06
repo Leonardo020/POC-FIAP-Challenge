@@ -93,12 +93,25 @@ body {
 	font-size: 9px;
 }
 
+.dropdown-item:active {
+	color: #000;
+	background-color: #bdbcbc;
+}
+
 .on {
-	color: rgb(61, 204, 61);
+	color: #3dcc3d;
 }
 
 .off {
-	color: rgb(190, 55, 55);
+	color: #be3737;
+}
+
+#dropdownIntegration img {
+	width: 40%;
+}
+
+#dropdownIntegration .dropdown-item {
+	padding: 10px;
 }
 
 footer {
